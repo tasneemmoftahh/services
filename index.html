@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>البوابة الإلكترونية - كلية التقنية الهندسية جنزور</title>
+    <!-- خط القاهرة من Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- أيقونات Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- ربط ملف الـ CSS الخارجي -->
+    <link rel="stylesheet" href="CSS.css">
+    
+</head>
+<body>
+
+    <!-- الشريط العلوي والتنقل (Navbar) -->
+    <header class="navbar-header">
+        <div class="nav-container">
+            <div class="brand">
+                <i class="fa-solid fa-university brand-icon"></i>
+                <div class="brand-text">
+                    <span class="college-name">كلية التقنية الهندسية جنزور</span>
+                    <span class="sub-title">البوابة الإلكترونية للأنظمة الأكاديمية</span>
+                </div>
+            </div>
+
+            <!-- زر التبديل للهواتف -->
+            <button class="mobile-toggle" id="mobileToggle" aria-label="فتح القائمة">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- روابط الناف بار -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="#system1" class="nav-link"><i class="fa-solid fa-file-arrow-down"></i> تنزيل المواد</a>
+                <a href="#system2" class="nav-link"><i class="fa-solid fa-diagram-project"></i> التنسيب العلمي</a>
+                <a href="#system3" class="nav-link"><i class="fa-solid fa-book-open"></i> الخطة الدراسية</a>
+                <a href="#system4" class="nav-link"><i class="fa-solid fa-user-shield"></i> مراقبة الامتحانات</a>
+                <a href="#system5" class="nav-link"><i class="fa-solid fa-chart-line"></i> تقييم الأداء (اللود)</a>
+                <a href="#system6" class="nav-link"><i class="fa-solid fa-id-card"></i> شؤون أعضاء الهيئة</a>
+                <a href="#system7" class="nav-link"><i class="fa-solid fa-folder-open"></i> نماذج المشاريع</a>
+                <a href="#system8" class="nav-link"><i class="fa-solid fa-display"></i> عرض المشاريع</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- الواجهة الرئيسية -->
+
+<section class="hero-section">
+    <div class="hero-content">
+        <span class="hero-badge">
+            <i class="fas fa-university"></i>
+            بوابتك الأكاديمية
+        </span>
+
+        <h1>
+            كل خدمات الكلية
+            <span>في مكان واحد</span>
+        </h1>
+
+        <p>
+            احصل على خدماتك الأكاديمية والإدارية بكل سهولة،
+            من خلال منظومة موحدة مصممة لتسهيل تجربتك الجامعية.
+        </p>
+
+      
+    </div>
+
+    <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="floating-shape shape-one"></div>
+        <div class="floating-shape shape-two"></div>
+
+        <div class="hero-main-icon">
+            <i class="fas fa-book"></i>
+        </div>
+
+        <div class="floating-card floating-card-top">
+            <span class="mini-icon"><i class="fas fa-book-open"></i></span>
+            <div>
+                <strong>الخدمات الأكاديمية</strong>
+                <small>كل احتياجاتك الجامعية</small>
+            </div>
+        </div>
+
+        <div class="floating-card floating-card-bottom">
+            <span class="mini-icon"><i class="fas fa-file-alt"></i></span>
+            <div>
+                <strong>النماذج والطلبات</strong>
+                <small>بخطوات سهلة ومنظمة</small>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- قسم الأنظمة والخدمات -->
+    <main class="main-container">
+        <div class="section-title">
+            <h2>الأنظمة الإلكترونية</h2>
+            <p>اختر النظام المطلوب للانتقال إلى الرابط المباشر الخاص به</p>
+        </div>
+
+        <div class="systems-grid" id="systemsGrid">
+            
+            <!-- نماذج تنزيل المواد -->
+            <div class="system-card" id="system1" data-title="نماذج تنزيل المواد">
+                <div class="card-icon icon-blue">
+                    <i class="fa-solid fa-file-arrow-down"></i>
+                </div>
+                <h3>1.  نماذج تنزيل المواد</h3>
+                <p>تنزيل وتعبئة نماذج تسجيل وتنزيل المقررات الدراسية الخاصة بالفصل الدراسي الحالي.</p>
+                <div class="link-wrapper">
+                    <a href="https://www.cetj.edu.ly/Subject_form/students/student_login.php" class="system-btn">
+                        <span>الدخول للنظام</span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+            <!--  التنسيب للأقسام العلمية -->
+            <div class="system-card" id="system2" data-title="التنسيب للأقسام العلمية">
+                <div class="card-icon icon-green">
+                    <i class="fa-solid fa-diagram-project"></i>
+                </div>
+                <h3>2. نظام التنسيب للأقسام العلمية</h3>
+                <p>تقديم طلبات التنسيب واختيار التخصصات والأقسام الهندسية المتاحة بالكلية.</p>
+                <div class="link-wrapper">
+                    <a href="https://www.cetj.edu.ly/student_placement/users/login.php" class="system-btn">
+                        <span>الدخول للنظام</span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--  الخطة الدراسية -->
+            <div class="system-card" id="system3" data-title="الخطة الدراسية">
+                <div class="card-icon icon-purple">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+                <h3>3. نظام الخطة الدراسية</h3>
+                <p>استعراض المناهج، المكتسبات العلمية، والساعات المعتمدة لكافة الأقسام الهندسية.</p>
+                <div class="link-wrapper">
+                    <a href="https://www.cetj.edu.ly/course_management_system/" class="system-btn">
+                        <span>الدخول للنظام</span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- مراقبة الامتحانات -->
+            <div class="system-card" id="system4" data-title="مراقبة في الامتحانات">
+                <div class="card-icon icon-orange">
+                    <i class="fa-solid fa-user-shield"></i>
+                </div>
+                <h3>4. نظام مراقبة الامتحانات</h3>
+                <p>إدارة جداول المراقبة وتوزيع القاعات والملاحظين خلال فترات الامتحانات.</p>
+                <div class="link-wrapper">
+                    <a href="https://www.cetj.edu.ly/exams_system/monitor/login.php" class="system-btn">
+                        <span>الدخول للنظام</span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--  تقييم الأداء  -->
+            <div class="system-card" id="system5" data-title="تقييم الأداء اللود أعضاء هيئة التدريس">
+                <div class="card-icon icon-red">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h3>5. نظام تقييم الأداء </h3>
+                <p>احتساب الساعات التدريسية والعبء الأكاديمي (اللود) لأعضاء هيئة التدريس.</p>
+                <div class="link-wrapper">
+                    <a href="https://www.cetj.edu.ly/performance_assignment/login.php" class="system-btn">
+                        <span>الدخول للنظام</span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--  شؤون أعضاء هيئة التدريس -->
+            <div class="system-card" id="system6" data-title="شؤون أعضاء هيئة التدريس">
+                <div class="card-icon icon-teal">
+                    <i class="fa-solid fa-id-card"></i>
+                </div>
+                <h3>6. نظام شؤون أعضاء هيئة التدريس</h3>
+                <p>إدارة البيانات الشاملة والملفات الإدارية والتترقيات العلمية للكادر التدريسي.</p>
+                <div class="link-wrapper">
+                    <a href="https://www.cetj.edu.ly/Faculty_Archive/janzor1/login.php" class="system-btn">
+                        <span>الدخول للنظام</span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!--  نماذج مشاريع التخرج -->
+            <div class="system-card" id="system7" data-title="نماذج مشاريع التخرج للقسم">
+                <div class="card-icon icon-indigo">
+                    <i class="fa-solid fa-folder-open"></i>
+                </div>
+                <h3>7. نظام نماذج مشاريع التخرج</h3>
+                <p>نماذج مقترحات المشاريع، استمارات الاعتماد، وإرشادات كتابة التقرير النهائي.</p>
+                <div class="link-wrapper">
+                    <a href="https://www.cetj.edu.ly/graduation_project/" class="system-btn">
+                        <span>الدخول للنظام</span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- عرض مشاريع التخرج -->
+            <div class="system-card" id="system8" data-title="عرض مشاريع التخرج للقسم">
+                <div class="card-icon icon-amber">
+                    <i class="fa-solid fa-display"></i>
+                </div>
+                <h3>8. نظام عرض مشاريع التخرج</h3>
+                <p>معرض الأرشيف المكتبي للمشاريع المتميزة ومواعيد المناقشات العلمية بالقسم.</p>
+                <div class="link-wrapper">
+                    <a href="https://www.cetj.edu.ly/student_projects/website/" class="system-btn">
+                        <span>الدخول للنظام</span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!--  Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>جميع الحقوق محفوظة &copy; 2026 - <strong>كلية التقنية الهندسية-جنزور</strong></p>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
